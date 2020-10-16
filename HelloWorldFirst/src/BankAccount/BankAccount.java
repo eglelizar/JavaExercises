@@ -14,6 +14,12 @@ public class BankAccount {
 		this.balance= balance;
 		this.customerName = customerName;
 	}
+	
+	public BankAccount(String customerName, double balance) {
+		super();
+		this.balance = balance;
+		this.customerName = customerName;
+	}
 	public int getNumber(){
 		return this.number;
 	}
