@@ -24,6 +24,5 @@ public class Main {
 				return new Forgetable();
 		}
 		return null;
-	}
-
+	} 
 }
