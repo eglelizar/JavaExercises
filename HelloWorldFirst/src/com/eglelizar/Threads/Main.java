@@ -18,6 +18,13 @@ public class Main {
 			@Override
 			public void run() {
 				System.out.println("Hello from the anonymous class implementation of run()");
+				try {
+					anotherThread.join(2000);
+					System.out.println("AnotherThread terminated, so I am runnin again");
+				}catch(InterruptedException e)
+				{
+					System.out.println("I could not wait after all. I was interrupted");
+				}
 			}
 			
 		});
