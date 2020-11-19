@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Student Confirmation</title>
+	<title>Student Confirmation From Branch</title>
 </head>
 <body>
 <br>
